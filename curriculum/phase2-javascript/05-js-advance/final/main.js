@@ -138,7 +138,7 @@ const render = (contactsToRender = contactsState) => {
     <div class="bg-white rounded-lg shadow p-4 mb-3 flex justify-between items-center">
       <div>
         <h3 class="font-semibold text-gray-800">${contact.name}</h3>
-        <p class="text-sm text-gray-500">📧 ${contact.info.email}</p>
+        <p class="text-smtext-gray-500">📧 ${contact.info.email}</p>
         <p class="text-sm text-gray-500">📱 ${displayPhone(contact)}</p>
       </div>
       <div class="flex gap-2">
